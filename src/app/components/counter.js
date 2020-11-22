@@ -11,7 +11,6 @@ export class Counter extends React.Component {
         let classNameP;
         return (this.props.value === 0 ? classNameP = "badge m-2 badge-warning" : classNameP = "badge m-2 badge-primary")
     }
-
     render() {
         return (
             <div className="row">
