@@ -2,6 +2,7 @@ import React from "react";
 import Button from 'react-bootstrap/Button';
 
 export class Btn extends React.Component{
+
     render() {
         return(
             <Button
