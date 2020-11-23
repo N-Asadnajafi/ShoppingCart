@@ -9,7 +9,13 @@ export class Counter extends React.Component {
 
     changeClass(){
         let classNameP;
-        return (this.props.value === 0 ? classNameP = "badge m-2 badge-warning" : classNameP = "badge m-2 badge-primary")
+        if(this.props.value === 0){
+            classNameP = "badge m-2 badge-warning"
+        }
+        else{
+            classNameP = "badge m-2 badge-primary"
+        }
+        return classNameP;
     }
     render() {
         return (
